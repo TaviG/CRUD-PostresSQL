@@ -16,7 +16,7 @@ import model.Volume;
 public class VolumeDAO {
 	private String jdbcURL = "jdbc:postgresql://localhost:5432/proiect3";
 	private String jdbcUsername = "postgres";
-	private String jdbcPassword = "tavi1999";
+	private String jdbcPassword = "";
 	private AutoriDAO autoridao = new AutoriDAO();
 	private CartiDAO cartidao = new CartiDAO();
 	
