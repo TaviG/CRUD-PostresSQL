@@ -16,7 +16,7 @@ public class BibliotecaDAO {
 
 	private String jdbcURL = "jdbc:postgresql://localhost:5432/proiect3";
 	private String jdbcUsername = "postgres";
-	private String jdbcPassword = "tavi1999";
+	private String jdbcPassword = "";
 	
 	private static final String INSERT_BIBLIOTECA_QUERY = "INSERT INTO proiect3.biblioteca" + "(denumire, adresa) VALUES " + " (?, ?);";
 	private static final String SELECT_BIBLIOTECA_BY_ID = "select bibliotecaid, denumire, adresa from proiect3.biblioteca where bibliotecaid = ?;";
