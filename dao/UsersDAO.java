@@ -16,7 +16,7 @@ public class UsersDAO {
 	
 	private String jdbcURL = "jdbc:postgresql://localhost:5432/proiect3";
 	private String jdbcUsername = "postgres";
-	private String jdbcPassword = "tavi1999";
+	private String jdbcPassword = "";
 	
 	private static final String INSERT_USER_QUERY = "INSERT INTO proiect3.users" + "(username, password, admin) VALUES " + " (?, ?, ?);";
 	private static final String SELECT_USER_BY_USERNAME = "select userid, username, password, admin  from proiect3.users where username = ?;";
