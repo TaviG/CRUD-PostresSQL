@@ -16,7 +16,7 @@ import model.Carti;
 public class CartiDAO {
 	private String jdbcURL = "jdbc:postgresql://localhost:5432/proiect3";
 	private String jdbcUsername = "postgres";
-	private String jdbcPassword = "tavi1999";
+	private String jdbcPassword = "";
 	
 	private static final String INSERT_CARTI_QUERY = "INSERT INTO proiect3.carti" + "(denumire, anaparitie, editura) VALUES " + " (?, ?, ?);";
 	private static final String SELECT_CARTE_BY_ID = "select carteid, denumire, anaparitie, editura from proiect3.carti where carteid = ?;";
