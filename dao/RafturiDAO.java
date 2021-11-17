@@ -18,7 +18,7 @@ public class RafturiDAO {
 	private BibliotecaDAO bibliotecadao = new BibliotecaDAO();
 	private String jdbcURL = "jdbc:postgresql://localhost:5432/proiect3";
 	private String jdbcUsername = "postgres";
-	private String jdbcPassword = "tavi1999";
+	private String jdbcPassword = "";
 	
 	private static final String INSERT_RAFT_QUERY = "INSERT INTO proiect3.rafturi" + "(carteid, bibliotecaid, codraft) VALUES " + " (?, ?, ?);";
 	private static final String SELECT_RAFT_BY_ID = "select raftid, carteid, bibliotecaid, codraft  from proiect3.rafturi where raftid = ?;";
