@@ -15,7 +15,7 @@ import model.Autori;
 public class AutoriDAO {
 	private String jdbcURL = "jdbc:postgresql://localhost:5432/proiect3";
 	private String jdbcUsername = "postgres";
-	private String jdbcPassword = "tavi1999";
+	private String jdbcPassword = "";
 	
 	private static final String INSERT_AUTORI_QUERY = "INSERT INTO proiect3.autori" + "(numeautor, prenumeautor, taraorigine) VALUES " + " (?, ?, ?);";
 	private static final String SELECT_AUTOR_BY_ID = "select autorid, numeautor, prenumeautor, taraorigine from proiect3.autori where autorid = ?;";
